@@ -1,5 +1,8 @@
-export function Button({name}){
+export function Button({ name, handelFunction}){
   return(
-    <button className={`b_${name}`} >{name}</button>
+    <button 
+      className={`b_${name}`} 
+      onClick={handelFunction}
+    >{name}</button>
   )
 }
