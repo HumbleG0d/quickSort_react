@@ -20,6 +20,7 @@
   border: 0;
   font-size: 14px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .b_Descendente {
@@ -28,6 +29,15 @@
   border: 0;
   font-size: 14px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.b_Ascendente:hover {
+  background-color: rgb(104, 104, 224);
+}
+
+.b_Descendente:hover {
+  background-color: rgb(243, 122, 122);
 }
 
 .list {
