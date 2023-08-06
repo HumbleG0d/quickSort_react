@@ -1,8 +1,8 @@
-# React + Vite
+# Aplicación de Ordenación de Números
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una pequeña aplicación web desarrollada en React que te permite agregar números a una lista y luego ordenarlos en orden ascendente o descendente utilizando el algoritmo de ordenación "QuickSort".
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Agrega números a la lista: Puedes ingresar un número en el campo de entrada y hacer clic en el botón "Agregar" para agregarlo a la lista.
+- Ordena los números: Puedes ordenar los números de la lista haciendo clic en los botones "Ascendente" o "Descendente". La lista se reorganizará automáticamente utilizando el algoritmo de ordenación "QuickSort".
